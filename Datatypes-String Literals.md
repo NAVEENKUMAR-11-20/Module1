@@ -1,15 +1,31 @@
-# Datatypes-Read and Print a String in Python
+Conditional Statements in Python: Even or Odd Checker
 
-## 🎯 Aim
-To write a Python program to read a string from the user and then print it.
+🎯 Aim
 
-## 🧠 Algorithm
-1. Assign a variable named `men_stepped_on_the_moon`.
-2. Use `input()` to read a string from the user and store it in the variable.
-3. Print the value stored in the variable.
+To write a Python program to check whether the given number is even or odd using if...else statements.
 
-## 🧾 Program
+🧠 Algorithm
 
-## Output
+Get an input from the user.
+Convert the input to an integer and store it in a variable a.
+Use the modulo operator % to check if a % 2 == 0.
+If true, print "EVEN".
+Else, print "ODD".
+End the program.
 
-## Result
+🧾 Program
+
+```python
+num = int(input("Enter a number: ")) 
+if num % 2 == 0: 
+  print("Even")
+else: print("Odd")
+```
+
+Output
+
+
+Result
+<img width="499" height="304" alt="image" src="https://github.com/user-attachments/assets/45383171-1a34-418c-bca4-5c45dd0942ec" />
+
+Thus,the program was implemented and executed successfully,and the required output was obtained.
